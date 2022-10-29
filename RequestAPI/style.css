@@ -104,6 +104,12 @@ body{
     text-align: left;
 }
 
+#desc-alert{
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
 footer{
     position: relative;
     text-align: right;
