@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+
+}
+
+.main{
+    margin: auto;
+    margin-top: 5%;
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px 0px 0px 20px;
+    -webkit-box-shadow: 4px 7px 18px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 4px 7px 18px 0px rgba(0,0,0,0.65);
+    box-shadow: 4px 7px 18px 0px rgba(0,0,0,0.65);
+}
+
+.explorer{
+    top: 50%;
+    width: 47%;
+    height: 100%;
+}
+
+.explorer-title{
+    margin-top: 2em;
+}
+
+.explorer-subtitle{
+    margin-bottom: 2em;
+    font-size: 14px;
+}
+
+.explorer-desc{
+    margin-bottom: 2em;
+}
+
+.result{
+    width: 63%;
+    height: 100%;
+    float: right;
+    background-color: rgba(0, 0, 255, 0.322);
+}
+
+.informacoes{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 50% 50% 0 0;
+}
+
+.inpSearch{
+    border: solid 1px;
+    padding: 1% 1%;
+    border-radius: 15px;
+    width: 40%;
+}
+
+.btnSearch{
+    font-size: 15px;
+    padding: 0.5em 0.8em;
+    color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#resultados{
+    text-align: left;
+    margin: 8%;
+}
+
+#resultados span{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#result-word{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    text-transform: capitalize;
+    color: blue;
+    border-bottom: 2px solid rgba(0, 0, 255, 0.062);
+}
+
+#desc-word{
+    text-align: left;
+}
+
+footer{
+    position: relative;
+    text-align: right;
+    margin-top: 5%;
+}
+
