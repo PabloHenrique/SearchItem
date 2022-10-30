@@ -1,17 +1,20 @@
-let url = 'https://significado.herokuapp.com/v2/';
+let urlDicio = 'https://significado.herokuapp.com/v2/';
+let urlPexels = 'https://api.pexels.com/v1/search?query=';
+const auth = "563492ad6f91700001000001be4b6bf59dab4cf6a0b411cb45d2de28"
 
+const form = document.querySelector("#informacoes");
 let dadosTxt = document.querySelector("#search");
-let bntTxt = document.querySelector("#send");
+let btnTxt = document.querySelector("#send");
 let resultados = document.querySelector("#resultados");
 
-bntTxt.addEventListener("click", (event) => {
+btnTxt.addEventListener("click", (event) => {
     event.preventDefault();
+    //API DICIO
     let palavra = dadosTxt.value;
-    console.log(palavra);
     if(palavra === ''){
         resultados.innerHTML = `<p id="desc-alert"><strong>Erro!</strong> Escreva uma palavra!</p>`
     } else {
-        fetch(`${url}${palavra}`)
+        fetch(`${urlDicio}${palavra}`)
         .then((resposta) => resposta.json())
         .then((data) => {
             console.log(data)
@@ -26,5 +29,3 @@ bntTxt.addEventListener("click", (event) => {
             })
     }
 });
-
-
