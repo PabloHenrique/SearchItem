@@ -15,11 +15,7 @@ Tecnologias:
 ### Preview
 Visualização Desktop
 <br>
-<img src="./img_previewDesk.png">
-<br>
-Visualização Mobile
-<br>
-<img src="./img_previewMobile.jpg">
+<img src="img_previewDesk.png">
 <br>
 
 ### Details
