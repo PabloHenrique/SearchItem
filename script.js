@@ -1,6 +1,5 @@
 let urlDicio = 'https://significado.herokuapp.com/v2/';
 let urlPexels = 'https://api.pexels.com/v1/search?query=';
-const auth = "563492ad6f91700001000001be4b6bf59dab4cf6a0b411cb45d2de28"
 
 const form = document.querySelector("#informacoes");
 let dadosTxt = document.querySelector("#search");

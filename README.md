@@ -5,6 +5,11 @@
 Utilizar de APIs públicas para obter dados.
 <br>
 
+<strong>Projeto prático</strong>
+Atualizações Futuras:
+  - Integrar com API Pexels (Busca de imagens)
+  - https://www.pexels.com/api/documentation/
+
 Tecnologias:
 <ul>
   <li>Html</li>
@@ -19,7 +24,7 @@ Visualização Desktop
 <br>
 Visualização Mobile
 <br>
-<img src="./img_previewMobile.png">
+<img src="./img_previewMobile.png" witdh>
 <br>
 
 ### Details
