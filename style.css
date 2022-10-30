@@ -75,6 +75,11 @@ body{
     cursor: pointer;
 }
 
+.btnSearch:hover{
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+}
+
 #resultados{
     text-align: left;
     margin: 8%;
@@ -104,9 +109,29 @@ body{
 }
 
 footer{
+    color: white;
     position: relative;
-    text-align: right;
-    margin-top: 5%;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: 14px;
+}
+
+.footer-links{
+    font-size: 25px;
+}
+
+.link-item{
+    padding: 0.1em 0.4em;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    color: white;
+}
+
+.link-item:hover{
+    background-color: white;
+    color: gray;
+    transition: 0.3s;
 }
 
 @media (max-width:1000px){
