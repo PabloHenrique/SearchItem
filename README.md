@@ -22,10 +22,6 @@ Visualização Desktop
 <br>
 <img src="./img_previewDesk.png">
 <br>
-Visualização Mobile
-<br>
-<img src="./img_previewMobile.png" witdh>
-<br>
 
 ### Details
 
