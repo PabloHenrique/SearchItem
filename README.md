@@ -6,6 +6,7 @@ Utilizar de APIs públicas para obter dados.
 <br>
 
 <strong>Projeto prático</strong>
+<br>
 Atualizações Futuras:
   - Integrar com API Pexels (Busca de imagens)
   - https://www.pexels.com/api/documentation/
