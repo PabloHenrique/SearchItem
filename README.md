@@ -19,7 +19,7 @@ Visualização Desktop
 <br>
 Visualização Mobile
 <br>
-<img src="./img_previewMobile.png">
+<img src="./img_previewMobile.jpg">
 <br>
 
 ### Details
