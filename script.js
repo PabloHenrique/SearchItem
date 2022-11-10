@@ -5,6 +5,7 @@ const form = document.querySelector("#informacoes");
 let dadosTxt = document.querySelector("#search");
 let btnTxt = document.querySelector("#send");
 let resultados = document.querySelector("#resultados");
+const footer = document.getElementById("footer")
 
 btnTxt.addEventListener("click", (event) => {
     event.preventDefault();
@@ -13,6 +14,7 @@ btnTxt.addEventListener("click", (event) => {
     if(palavra === ''){
         resultados.innerHTML = `<p id="desc-alert"><strong>Erro!</strong> Escreva uma palavra!</p>`
     } else {
+        footer.classList.remove('fixed');
         fetch(`${urlDicio}${palavra}`)
         .then((resposta) => resposta.json())
         .then((data) => {
@@ -22,6 +24,8 @@ btnTxt.addEventListener("click", (event) => {
                 <p id="desc-word"><span>1°</span>${data[0].meanings[0]}</p>
                 <br>
                 <p id="desc-word"><span>2°</span>${data[0].meanings[1]}</p>
+                <br>
+                <p id="desc-word">${data[3].etymology}</p>
                 `
             }).catch(() => {
                 resultados.innerHTML = `<p id="desc-alert"><strong>Erro!</strong> Palavra não encontrada</p>`
