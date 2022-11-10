@@ -21,7 +21,7 @@ Tecnologias:
 ### Preview
 Visualização Desktop
 <br>
-<img src="./img_previewDesk.png">
+<img src="./img_previewDesk.png" width="80%">
 <br>
 
 ### Details
