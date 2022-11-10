@@ -1,17 +1,10 @@
-## <p style="color: blue;">Search Item</p>
+## <p>Search Item</p>
 
 <strong>Projeto prático</strong>
-<br>
-Utilizar de APIs públicas para obter dados.
+### Web-Site</p>
 <br>
 
-<strong>Projeto prático</strong>
-<br>
-Atualizações Futuras:
-  - Integrar com API Pexels (Busca de imagens)
-  - https://www.pexels.com/api/documentation/
-
-Tecnologias:
+Tecnologias / Ferramentas utilizadas 🔍
 <ul>
   <li>Html</li>
   <li>Css Responsivo</li>
@@ -19,15 +12,22 @@ Tecnologias:
 </ul>
 
 ### Preview
-Visualização Desktop
-<br>
-<img src="./img_previewDesk.png" width="80%">
+<p align="center">
+  Desktop 💻
+  <br><br>
+  <img src="./img_previewDeskUpdated.png" width="75%">
+</p>
 <br>
 
 ### Details
 
-- Objective: Produzir uma website para consumir uma API(Interface de Programação de Aplicação).
+- Objetivo: Produzir uma website para consumir uma API(Interface de Programação de Aplicação) utilizando JS ou JQuery.
 
 - API utilizada: https://github.com/ThiagoNelsi/dicio-api
 <br>
 "O Dicio API permite buscas por diversas informações a respeito de milhares de palavras da língua portuguesa, todos os dados são extraídos do Dicio."
+
+<br><br>
+Atualizações Futuras:
+  - Integrar com API Pexels (Busca de imagens)
+  - https://www.pexels.com/api/documentation/
